@@ -1,124 +1,118 @@
-    body {
-        display: flex;
-        justify-content: center;
-    }
-    
-    #container {
-        width: 100%;
-        border: 1px solid #000;
-    }
-    
-    #titleName {
-        margin: 20px;
-    }
-    
-    #title {
-        margin-left: 30px;
-    }
-    
-    #infoInput {
-        /* border: 1px solid #000; */
-    }
-    
-    #product,
-    #otherInfo {
-        display: flex;
-        justify-content: center;
-    }
-    
-    #pName,
-    #pQuanlity,
-    #pPrice,
-    #pDiscount {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80px;
-        width: 40%;
-    }
-    
-    label {
-        font-size: 20px;
-    }
-    
-    input {
-        height: 20px;
-        margin-left: 10px;
-    }
-    
-    #enterPPrice {
-        margin-left: 40px;
-    }
-    
-    #noti1,
-    #noti2,
-    #noti3,
-    #noti4 {
-        margin-left: 10px;
-        font-size: 80%;
-        color: red;
-        width: 50px;
-        /* border: 1px solid #000; */
-    }
-    
-    #click {
-        display: flex;
-    }
-    
-    #click>button {
-        height: 30px;
-        width: 100px;
-        margin: 20px;
-        margin-left: 50px;
-    }
-    /*--------------------------------------*/
-    
-    #bill {
-        display: flex;
-        justify-content: center;
-    }
-    
-    #head-table,
-    #body-table {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    table {
-        width: 70%;
-        border-collapse: collapse;
-    }
-    
-    #b-content {
-        margin-bottom: 50px;
-    }
-    
-    th {
-        border: 1px solid #000;
-        font-size: 20px;
-    }
-    
-    .id {
-        width: 10.9%;
-    }
-    
-    .pN {
-        width: 27.3%;
-    }
-    
-    .q,
-    .d {
-        width: 12.7%;
-    }
-    
-    .uP,
-    .sT {
-        width: 18.2%;
-    }
-    
-    #b-content td {
-        text-align: center;
-        vertical-align: center;
-        border: 1px solid #000;
-    }
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 60%;
+    position: relative;
+    border: 1px solid #000;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+}
+
+#body {}
+
+.form {}
+
+.central {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 10%;
+}
+
+#noti1,
+#noti2,
+#noti3 {
+    position: absolute;
+    width: 10%;
+    right: -12%;
+    top: -20%;
+    color: darkred;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    margin: 20px;
+    margin-left: 10%;
+    width: 10%;
+    height: 40px;
+    background-color: gray;
+}
+
+#end div {
+    display: flex;
+    justify-content: center;
+}
+
+#end {
+    /* display: none; */
+}
+
+#end table {
+    width: 80%;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+
+.no {
+    width: 10%;
+}
+
+.product {
+    width: 36%;
+}
+
+.quanlity {
+    width: 15%;
+}
+
+.price,
+.total {
+    width: 19.5%;
+}
+
+#body-table {
+    margin-bottom: 50px;
+}
+
+#body-table tr {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+#body-table td {
+    text-align: center;
+    vertical-align: center;
+    font-size: 120%;
+    height: 30px;
+}
